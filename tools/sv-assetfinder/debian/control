@@ -1,0 +1,13 @@
+Source: sv-assetfinder
+Section: net
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-assetfinder
+Architecture: amd64
+Depends: svent-core, ${shlibs:Depends}, ${misc:Depends}
+Description: Svent recon tool: assetfinder
+ Built from upstream source.
