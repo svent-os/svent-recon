@@ -1,0 +1,1 @@
+{"schema":1,"name":"nmap","group":"recon","description":"Network scanner and service detector","packaging":"debian","package":"nmap","executables":["nmap"],"official_source":"https://nmap.org","version_policy":"follow-debian-testing","functional_test":["nmap","--version"],"functional_test_any_exit":true}
