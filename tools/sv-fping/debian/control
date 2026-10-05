@@ -1,0 +1,13 @@
+Source: sv-fping
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-fping
+Architecture: all
+Depends: svent-core, fping, ${misc:Depends}
+Description: Svent recon tool: fping
+ Installs fping and registers it in the Svent catalog and menu.

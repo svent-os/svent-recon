@@ -1,3 +1,9 @@
+sv-tools-recon (0.3.10) unstable; urgency=medium
+
+  * Add sv-fping
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 14:31:05 -0400
+
 sv-tools-recon (0.3.9) unstable; urgency=medium
 
   * Add sv-httpx
