@@ -1,0 +1,1 @@
+{"schema":1,"name":"dnsx","group":"recon","description":"Fast and multi-purpose DNS toolkit","packaging":"svent","package":"sv-dnsx","executables":["dnsx"],"official_source":"https://github.com/projectdiscovery/dnsx","version_policy":"svent-packaged","functional_test":["dnsx","--version"],"functional_test_any_exit":true}

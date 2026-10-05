@@ -1,0 +1,2 @@
+bin/dnsx usr/bin/
+catalog.d/dnsx.json usr/share/svent/catalog.d/
