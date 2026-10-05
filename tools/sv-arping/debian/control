@@ -1,0 +1,13 @@
+Source: sv-arping
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-arping
+Architecture: all
+Depends: svent-core, arping, ${misc:Depends}
+Description: Svent recon tool: arping
+ Installs arping and registers it in the Svent catalog and menu.

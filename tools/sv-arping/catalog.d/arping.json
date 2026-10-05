@@ -1,0 +1,1 @@
+{"schema":1,"name":"arping","group":"recon","description":"ARP-level ping and host discovery","packaging":"debian","package":"arping","executables":["arping"],"official_source":"https://github.com/ThomasHabets/arping","version_policy":"follow-debian-testing","functional_test":["arping","--version"],"functional_test_any_exit":true}
