@@ -1,0 +1,2 @@
+bin/subfinder usr/bin/
+catalog.d/subfinder.json usr/share/svent/catalog.d/

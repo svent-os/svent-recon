@@ -1,3 +1,9 @@
+sv-tools-recon (0.3.2) unstable; urgency=medium
+
+  * Add sv-subfinder
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 13:41:56 -0400
+
 sv-tools-recon (0.3.1) unstable; urgency=medium
 
   * Add sv-arping
