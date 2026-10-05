@@ -1,0 +1,13 @@
+Source: sv-whois
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-whois
+Architecture: all
+Depends: svent-core, whois, ${misc:Depends}
+Description: Svent recon tool: whois
+ Installs whois and registers it in the Svent catalog and menu.
