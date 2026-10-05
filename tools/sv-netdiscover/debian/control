@@ -1,0 +1,13 @@
+Source: sv-netdiscover
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-netdiscover
+Architecture: all
+Depends: svent-core, netdiscover, ${misc:Depends}
+Description: Svent recon tool: netdiscover
+ Installs netdiscover and registers it in the Svent catalog and menu.
