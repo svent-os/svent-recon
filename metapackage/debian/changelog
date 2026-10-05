@@ -1,3 +1,9 @@
+sv-tools-recon (0.3.7) unstable; urgency=medium
+
+  * Add sv-massdns
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 14:17:38 -0400
+
 sv-tools-recon (0.3.6) unstable; urgency=medium
 
   * Add sv-naabu

@@ -1,0 +1,1 @@
+{"schema":1,"name":"massdns","group":"recon","description":"High-performance DNS stub resolver","packaging":"svent","package":"sv-massdns","executables":["massdns"],"official_source":"https://github.com/blechschmidt/massdns","version_policy":"svent-packaged","functional_test":["massdns","--version"],"functional_test_any_exit":true}
