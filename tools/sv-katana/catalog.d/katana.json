@@ -1,0 +1,1 @@
+{"schema":1,"name":"katana","group":"recon","description":"Next-generation crawling and spidering","packaging":"svent","package":"sv-katana","executables":["katana"],"official_source":"https://github.com/projectdiscovery/katana","version_policy":"svent-packaged","functional_test":["katana","--version"],"functional_test_any_exit":true}

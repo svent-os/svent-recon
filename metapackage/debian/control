@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-tools-recon
 Architecture: all
-Depends: svent-core, sv-dnsrecon, sv-nmap, sv-amass, sv-hping3, sv-masscan, sv-netdiscover, sv-arp-scan, sv-dnsenum, sv-fierce, sv-zmap, sv-arping, sv-subfinder, sv-dnsx, sv-httpx, sv-uncover, sv-naabu, sv-massdns, sv-puredns, sv-fping, sv-dig, sv-whois, sv-assetfinder, sv-asnmap, sv-mapcidr, ${misc:Depends}
+Depends: svent-core, sv-dnsrecon, sv-nmap, sv-amass, sv-hping3, sv-masscan, sv-netdiscover, sv-arp-scan, sv-dnsenum, sv-fierce, sv-zmap, sv-arping, sv-subfinder, sv-dnsx, sv-httpx, sv-uncover, sv-naabu, sv-massdns, sv-puredns, sv-fping, sv-dig, sv-whois, sv-assetfinder, sv-asnmap, sv-mapcidr, sv-katana, ${misc:Depends}
 Description: Svent recon tool group
  Installs every Svent tool in the recon category.
