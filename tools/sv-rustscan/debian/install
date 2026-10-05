@@ -1,0 +1,2 @@
+bin/rustscan usr/bin/
+catalog.d/rustscan.json usr/share/svent/catalog.d/

@@ -1,0 +1,1 @@
+{"schema":1,"name":"hping3","group":"recon","description":"TCP/IP packet assembler and analyzer","packaging":"debian","package":"hping3","executables":["hping3"],"official_source":"https://github.com/antirez/hping","version_policy":"follow-debian-testing","functional_test":["hping3","--version"],"functional_test_any_exit":true}

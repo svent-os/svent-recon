@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rustscan
+Source: https://github.com/bee-san/RustScan
+
+Files: *
+Copyright: 2020 RustScan contributors
+License: GPL-3.0-or-later
+ On Debian systems the full license text is in
+ /usr/share/common-licenses/GPL-3.

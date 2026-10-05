@@ -1,0 +1,1 @@
+{"schema":1,"name":"rustscan","group":"recon","description":"Fast modern port scanner","packaging":"svent","package":"sv-rustscan","executables":["rustscan"],"official_source":"https://github.com/bee-san/RustScan","version_policy":"svent-packaged","functional_test":["rustscan","--version"],"functional_test_any_exit":true}

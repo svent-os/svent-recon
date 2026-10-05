@@ -7,3 +7,7 @@ debhelper-build-stamp
 **/debian/files
 **/debian/sv-*/
 tools/*/bin/
+
+*.asc
+*secret*
+svent-signing-key.asc

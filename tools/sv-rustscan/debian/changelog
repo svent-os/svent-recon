@@ -1,0 +1,5 @@
+sv-rustscan (0.1.0) unstable; urgency=medium
+
+  * Initial release, built from upstream.
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 12:44:19 -0400
