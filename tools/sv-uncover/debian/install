@@ -1,0 +1,2 @@
+bin/uncover usr/bin/
+catalog.d/uncover.json usr/share/svent/catalog.d/
