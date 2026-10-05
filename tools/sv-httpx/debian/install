@@ -1,0 +1,2 @@
+bin/httpx usr/bin/
+catalog.d/httpx.json usr/share/svent/catalog.d/

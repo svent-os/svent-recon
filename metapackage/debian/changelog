@@ -1,3 +1,9 @@
+sv-tools-recon (0.3.4) unstable; urgency=medium
+
+  * Add sv-httpx
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 14:05:53 -0400
+
 sv-tools-recon (0.3.3) unstable; urgency=medium
 
   * Add sv-dnsx
