@@ -1,0 +1,2 @@
+bin/shuffledns usr/bin/
+catalog.d/shuffledns.json usr/share/svent/catalog.d/

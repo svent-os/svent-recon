@@ -1,3 +1,9 @@
+sv-tools-recon (0.3.14) unstable; urgency=medium
+
+  * Add sv-asnmap
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 14:34:46 -0400
+
 sv-tools-recon (0.3.13) unstable; urgency=medium
 
   * Add sv-assetfinder

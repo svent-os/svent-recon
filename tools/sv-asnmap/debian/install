@@ -1,0 +1,2 @@
+bin/asnmap usr/bin/
+catalog.d/asnmap.json usr/share/svent/catalog.d/
