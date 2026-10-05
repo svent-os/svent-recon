@@ -1,0 +1,1 @@
+{"schema":1,"name":"dig","group":"recon","description":"DNS lookup utility (dig)","packaging":"debian","package":"bind9-dnsutils","executables":["dig"],"official_source":"https://www.isc.org/bind","version_policy":"follow-debian-testing","functional_test":["dig","--version"],"functional_test_any_exit":true}

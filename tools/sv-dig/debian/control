@@ -1,0 +1,13 @@
+Source: sv-dig
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-dig
+Architecture: all
+Depends: svent-core, bind9-dnsutils, ${misc:Depends}
+Description: Svent recon tool: dig
+ Installs dig and registers it in the Svent catalog and menu.
