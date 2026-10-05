@@ -1,0 +1,1 @@
+{"schema":1,"name":"arp-scan","group":"recon","description":"ARP discovery and fingerprinting of hosts on the local network","packaging":"debian","package":"arp-scan","executables":["arp-scan"],"official_source":"https://github.com/royhills/arp-scan","version_policy":"follow-debian-testing","functional_test":["arp-scan","--version"],"functional_test_any_exit":true}

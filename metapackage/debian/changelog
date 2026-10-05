@@ -1,3 +1,9 @@
+sv-tools-recon (0.3.0+svent1+svent1+svent1) unstable; urgency=medium
+
+  * Add sv-arp-scan.
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 10:28:38 -0400
+
 sv-tools-recon (0.3.0+svent1+svent1) unstable; urgency=medium
 
   * Add sv-netdiscover.

@@ -1,0 +1,13 @@
+Source: sv-arp-scan
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-arp-scan
+Architecture: all
+Depends: svent-core, arp-scan, ${misc:Depends}
+Description: Svent recon tool: arp-scan
+ Installs arp-scan and registers it in the Svent catalog and menu.
