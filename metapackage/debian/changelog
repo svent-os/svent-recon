@@ -1,3 +1,9 @@
+sv-tools-recon (0.3.8) unstable; urgency=medium
+
+  * Add sv-puredns
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 14:19:32 -0400
+
 sv-tools-recon (0.3.7) unstable; urgency=medium
 
   * Add sv-massdns

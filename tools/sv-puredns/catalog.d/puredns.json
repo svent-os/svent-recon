@@ -1,0 +1,1 @@
+{"schema":1,"name":"puredns","group":"recon","description":"Fast domain resolver and subdomain bruteforcer","packaging":"svent","package":"sv-puredns","executables":["puredns"],"official_source":"https://github.com/d3mondev/puredns","version_policy":"svent-packaged","functional_test":["puredns","--version"],"functional_test_any_exit":true}

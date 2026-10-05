@@ -1,0 +1,2 @@
+bin/puredns usr/bin/
+catalog.d/puredns.json usr/share/svent/catalog.d/
