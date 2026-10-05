@@ -1,3 +1,9 @@
+sv-tools-recon (0.3.15) unstable; urgency=medium
+
+  * Add sv-mapcidr
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 14:36:39 -0400
+
 sv-tools-recon (0.3.14) unstable; urgency=medium
 
   * Add sv-asnmap

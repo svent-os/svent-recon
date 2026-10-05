@@ -1,0 +1,2 @@
+bin/mapcidr usr/bin/
+catalog.d/mapcidr.json usr/share/svent/catalog.d/
