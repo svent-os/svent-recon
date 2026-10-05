@@ -6,3 +6,4 @@ debhelper-build-stamp
 *.substvars
 **/debian/files
 **/debian/sv-*/
+tools/*/bin/

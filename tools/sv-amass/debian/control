@@ -1,0 +1,13 @@
+Source: sv-amass
+Section: net
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-amass
+Architecture: amd64
+Depends: svent-core, ca-certificates, ${shlibs:Depends}, ${misc:Depends}
+Description: Svent recon tool: amass (OWASP)
+ In-depth attack surface mapping and asset discovery, built from upstream.

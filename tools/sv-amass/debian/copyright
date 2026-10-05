@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: amass
+Source: https://github.com/owasp-amass/amass
+
+Files: *
+Copyright: 2017 OWASP Amass Project
+License: Apache-2.0
+ On Debian systems the full license text is in
+ /usr/share/common-licenses/Apache-2.0.
