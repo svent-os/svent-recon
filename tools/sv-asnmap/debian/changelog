@@ -1,6 +1,7 @@
 sv-asnmap (0.1.2) unstable; urgency=medium
 
   * Register the original tool command without a package prefix.
+  * Accept the Debian Go metapackage version suffix.
 
  -- z1rov <fabian@zirov.net>  Sat, 10 Oct 2026 12:00:00 -0500
 

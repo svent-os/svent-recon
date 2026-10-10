@@ -2,7 +2,7 @@ Source: sv-mapcidr
 Section: net
 Priority: optional
 Maintainer: z1rov <fabian@zirov.net>
-Build-Depends: debhelper-compat (= 13), golang-go (>= 2:1.24), ca-certificates, gcc, libc6-dev
+Build-Depends: debhelper-compat (= 13), golang-go (>= 2:1.24~), ca-certificates, gcc, libc6-dev
 Standards-Version: 4.7.0
 Rules-Requires-Root: no
 
