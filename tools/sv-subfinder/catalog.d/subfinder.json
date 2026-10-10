@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-subfinder",
   "executables": [
-    "sv-subfinder"
+    "subfinder"
   ],
   "official_source": "https://github.com/projectdiscovery/subfinder",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-subfinder",
+    "subfinder",
     "--help"
   ]
 }

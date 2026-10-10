@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "bind9-dnsutils",
   "executables": [
-    "sv-dig"
+    "dig"
   ],
   "official_source": "https://www.isc.org/bind",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-dig",
+    "dig",
     "--help"
   ]
 }

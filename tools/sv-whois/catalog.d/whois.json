@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "whois",
   "executables": [
-    "sv-whois"
+    "whois"
   ],
   "official_source": "https://github.com/rfc1036/whois",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-whois",
+    "whois",
     "--help"
   ]
 }

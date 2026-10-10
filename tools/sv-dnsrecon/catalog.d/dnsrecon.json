@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "dnsrecon",
   "executables": [
-    "sv-dnsrecon"
+    "dnsrecon"
   ],
   "official_source": "https://github.com/darkoperator/dnsrecon",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-dnsrecon",
+    "dnsrecon",
     "--help"
   ]
 }

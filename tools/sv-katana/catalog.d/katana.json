@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-katana",
   "executables": [
-    "sv-katana"
+    "katana"
   ],
   "official_source": "https://github.com/projectdiscovery/katana",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-katana",
+    "katana",
     "--help"
   ]
 }

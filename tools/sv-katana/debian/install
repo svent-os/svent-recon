@@ -1,3 +1,2 @@
 bin/katana usr/bin/
 catalog.d/katana.json usr/share/svent/catalog.d/
-launchers/sv-katana usr/bin/

@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-shuffledns",
   "executables": [
-    "sv-shuffledns"
+    "shuffledns"
   ],
   "official_source": "https://github.com/projectdiscovery/shuffledns",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-shuffledns",
+    "shuffledns",
     "--help"
   ]
 }

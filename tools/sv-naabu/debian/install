@@ -1,3 +1,2 @@
 bin/naabu usr/bin/
 catalog.d/naabu.json usr/share/svent/catalog.d/
-launchers/sv-naabu usr/bin/

@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "masscan",
   "executables": [
-    "sv-masscan"
+    "masscan"
   ],
   "official_source": "https://github.com/robertdavidgraham/masscan",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-masscan",
+    "masscan",
     "--help"
   ]
 }

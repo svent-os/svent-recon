@@ -1,3 +1,2 @@
 bin/amass usr/bin/
 catalog.d/amass.json usr/share/svent/catalog.d/
-launchers/sv-amass usr/bin/

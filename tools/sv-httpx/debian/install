@@ -1,3 +1,2 @@
-bin/httpx-toolkit usr/bin/
+bin/httpx usr/bin/
 catalog.d/httpx.json usr/share/svent/catalog.d/
-launchers/sv-httpx usr/bin/

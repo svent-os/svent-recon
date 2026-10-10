@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-mapcidr",
   "executables": [
-    "sv-mapcidr"
+    "mapcidr"
   ],
   "official_source": "https://github.com/projectdiscovery/mapcidr",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-mapcidr",
+    "mapcidr",
     "--help"
   ]
 }

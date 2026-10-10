@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-asnmap",
   "executables": [
-    "sv-asnmap"
+    "asnmap"
   ],
   "official_source": "https://github.com/projectdiscovery/asnmap",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-asnmap",
+    "asnmap",
     "--help"
   ]
 }

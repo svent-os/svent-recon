@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "arping",
   "executables": [
-    "sv-arping"
+    "arping"
   ],
   "official_source": "https://github.com/ThomasHabets/arping",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-arping",
+    "arping",
     "--help"
   ]
 }

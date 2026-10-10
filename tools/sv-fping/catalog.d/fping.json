@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "fping",
   "executables": [
-    "sv-fping"
+    "fping"
   ],
   "official_source": "https://github.com/schweikert/fping",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-fping",
+    "fping",
     "--help"
   ]
 }

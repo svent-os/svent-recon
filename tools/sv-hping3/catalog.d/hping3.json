@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "hping3",
   "executables": [
-    "sv-hping3"
+    "hping3"
   ],
   "official_source": "https://github.com/antirez/hping",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-hping3",
+    "hping3",
     "--help"
   ]
 }

@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-massdns",
   "executables": [
-    "sv-massdns"
+    "massdns"
   ],
   "official_source": "https://github.com/blechschmidt/massdns",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-massdns",
+    "massdns",
     "--help"
   ]
 }

@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "arp-scan",
   "executables": [
-    "sv-arp-scan"
+    "arp-scan"
   ],
   "official_source": "https://github.com/royhills/arp-scan",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-arp-scan",
+    "arp-scan",
     "--help"
   ]
 }

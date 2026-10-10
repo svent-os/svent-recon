@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "nmap",
   "executables": [
-    "sv-nmap"
+    "nmap"
   ],
   "official_source": "https://nmap.org",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-nmap",
+    "nmap",
     "--help"
   ]
 }

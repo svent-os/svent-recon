@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-dnsx",
   "executables": [
-    "sv-dnsx"
+    "dnsx"
   ],
   "official_source": "https://github.com/projectdiscovery/dnsx",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-dnsx",
+    "dnsx",
     "--help"
   ]
 }

@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "fierce",
   "executables": [
-    "sv-fierce"
+    "fierce"
   ],
   "official_source": "https://github.com/mschwager/fierce",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-fierce",
+    "fierce",
     "--help"
   ]
 }

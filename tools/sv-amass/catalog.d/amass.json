@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-amass",
   "executables": [
-    "sv-amass"
+    "amass"
   ],
   "official_source": "https://github.com/owasp-amass/amass",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-amass",
+    "amass",
     "--help"
   ]
 }

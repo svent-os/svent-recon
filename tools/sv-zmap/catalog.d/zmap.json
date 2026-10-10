@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "zmap",
   "executables": [
-    "sv-zmap"
+    "zmap"
   ],
   "official_source": "https://zmap.io",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-zmap",
+    "zmap",
     "--help"
   ]
 }

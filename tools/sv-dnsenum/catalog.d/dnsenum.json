@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "dnsenum",
   "executables": [
-    "sv-dnsenum"
+    "dnsenum"
   ],
   "official_source": "https://github.com/SparrowOchon/dnsenum2",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-dnsenum",
+    "dnsenum",
     "--help"
   ]
 }

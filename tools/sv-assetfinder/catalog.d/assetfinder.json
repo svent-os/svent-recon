@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-assetfinder",
   "executables": [
-    "sv-assetfinder"
+    "assetfinder"
   ],
   "official_source": "https://github.com/tomnomnom/assetfinder",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-assetfinder",
+    "assetfinder",
     "--help"
   ]
 }

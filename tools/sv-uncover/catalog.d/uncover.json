@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-uncover",
   "executables": [
-    "sv-uncover"
+    "uncover"
   ],
   "official_source": "https://github.com/projectdiscovery/uncover",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-uncover",
+    "uncover",
     "--help"
   ]
 }

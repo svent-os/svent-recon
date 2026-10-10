@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-rustscan",
   "executables": [
-    "sv-rustscan"
+    "rustscan"
   ],
   "official_source": "https://github.com/rustscan/rustscan",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-rustscan",
+    "rustscan",
     "--help"
   ]
 }

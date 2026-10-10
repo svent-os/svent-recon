@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-naabu",
   "executables": [
-    "sv-naabu"
+    "naabu"
   ],
   "official_source": "https://github.com/projectdiscovery/naabu",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "sv-naabu",
+    "naabu",
     "--help"
   ]
 }

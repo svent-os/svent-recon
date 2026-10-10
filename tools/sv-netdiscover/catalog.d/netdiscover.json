@@ -6,12 +6,12 @@
   "packaging": "debian",
   "package": "netdiscover",
   "executables": [
-    "sv-netdiscover"
+    "netdiscover"
   ],
   "official_source": "https://github.com/netdiscover-scanner/netdiscover",
   "version_policy": "follow-debian-testing",
   "functional_test": [
-    "sv-netdiscover",
+    "netdiscover",
     "--help"
   ]
 }

@@ -55,10 +55,10 @@ def validate_repository(root):
         if len(catalogs) != 1:
             raise RuntimeError('Expected one catalog: ' + folder.name)
         catalog = json.loads(catalogs[0].read_text(encoding='utf-8'))
-        if catalog['group'] != 'recon' or catalog['executables'] != [folder.name]:
+        if catalog['group'] != 'recon' or catalog['executables'] != [folder.name.removeprefix('sv-')]:
             raise RuntimeError('Invalid Recon command registration: ' + folder.name)
-        if not (folder / 'launchers' / folder.name).is_file():
-            raise RuntimeError('Missing global launcher: ' + folder.name)
+        if catalog['functional_test'][0] != catalog['executables'][0]:
+            raise RuntimeError('Functional test command mismatch: ' + folder.name)
         if catalog['packaging'] == 'svent':
             pin = json.loads((folder / 'upstream.json').read_text(encoding='utf-8'))
             if pin['version'] in ('latest', 'master', 'main'):
@@ -96,8 +96,8 @@ def collect_package(folder, output, architecture, compiled):
         for member in archive:
             filename = member.name.removeprefix('./')
             names.add(filename)
-            if filename == 'usr/bin/' + name and not member.mode & 0o111:
-                raise RuntimeError('Launcher is not executable: ' + name)
+            if filename == 'usr/bin/' + name:
+                raise RuntimeError('Unexpected package-prefixed command: ' + name)
             if compiled:
                 pin = json.loads((folder / 'upstream.json').read_text(encoding='utf-8'))
                 if filename == 'usr/bin/' + pin['executable']:
@@ -109,7 +109,9 @@ def collect_package(folder, output, architecture, compiled):
         raise RuntimeError('Cannot inspect package archive: ' + name)
     if name.startswith('sv-') and name != 'sv-tools-recon':
         catalog_name = next((folder / 'catalog.d').glob('*.json')).name
-        required = {'usr/bin/' + name, 'usr/share/svent/catalog.d/' + catalog_name}
+        required = {'usr/share/svent/catalog.d/' + catalog_name}
+        if compiled:
+            required.add('usr/bin/' + pin['executable'])
         if not required.issubset(names) or not executable_verified:
             raise RuntimeError('Incomplete package contents: ' + name)
     destination = output / artifact.name
