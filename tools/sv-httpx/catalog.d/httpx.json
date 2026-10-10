@@ -6,12 +6,12 @@
   "packaging": "svent",
   "package": "sv-httpx",
   "executables": [
-    "httpx"
+    "httpx-toolkit"
   ],
   "official_source": "https://github.com/projectdiscovery/httpx",
   "version_policy": "svent-packaged",
   "functional_test": [
-    "httpx",
+    "httpx-toolkit",
     "--help"
   ]
 }

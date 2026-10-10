@@ -1,3 +1,9 @@
+sv-httpx (0.1.3) unstable; urgency=medium
+
+  * Rename the executable to coexist with python3-httpx.
+
+ -- z1rov <fabian@zirov.net>  Sat, 10 Oct 2026 13:00:00 -0500
+
 sv-httpx (0.1.2) unstable; urgency=medium
 
   * Register the original tool command without a package prefix.
