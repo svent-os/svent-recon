@@ -1,1 +1,17 @@
-{"schema":1,"name":"zmap","group":"recon","description":"Fast network scanner for large-scale network research","packaging":"debian","package":"zmap","executables":["zmap"],"official_source":"https://zmap.io","version_policy":"follow-debian-testing","functional_test":["zmap","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "zmap",
+  "group": "recon",
+  "description": "Fast network scanner for large-scale network research",
+  "packaging": "debian",
+  "package": "zmap",
+  "executables": [
+    "sv-zmap"
+  ],
+  "official_source": "https://zmap.io",
+  "version_policy": "follow-debian-testing",
+  "functional_test": [
+    "sv-zmap",
+    "--help"
+  ]
+}

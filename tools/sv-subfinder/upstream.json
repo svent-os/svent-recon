@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/projectdiscovery/subfinder/v2",
+  "package": "github.com/projectdiscovery/subfinder/v2/cmd/subfinder",
+  "version": "v2.17.0",
+  "executable": "subfinder"
+}

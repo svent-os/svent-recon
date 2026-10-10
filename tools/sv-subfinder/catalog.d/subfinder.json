@@ -1,1 +1,17 @@
-{"schema":1,"name":"subfinder","group":"recon","description":"Subdomain discovery tool","packaging":"svent","package":"sv-subfinder","executables":["subfinder"],"official_source":"https://github.com/projectdiscovery/subfinder","version_policy":"svent-packaged","functional_test":["subfinder","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "subfinder",
+  "group": "recon",
+  "description": "Subdomain discovery tool",
+  "packaging": "svent",
+  "package": "sv-subfinder",
+  "executables": [
+    "sv-subfinder"
+  ],
+  "official_source": "https://github.com/projectdiscovery/subfinder",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "sv-subfinder",
+    "--help"
+  ]
+}

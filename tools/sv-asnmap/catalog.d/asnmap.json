@@ -1,1 +1,17 @@
-{"schema":1,"name":"asnmap","group":"recon","description":"Map IP ranges by ASN","packaging":"svent","package":"sv-asnmap","executables":["asnmap"],"official_source":"https://github.com/projectdiscovery/asnmap","version_policy":"svent-packaged","functional_test":["asnmap","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "asnmap",
+  "group": "recon",
+  "description": "Map IP ranges by ASN",
+  "packaging": "svent",
+  "package": "sv-asnmap",
+  "executables": [
+    "sv-asnmap"
+  ],
+  "official_source": "https://github.com/projectdiscovery/asnmap",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "sv-asnmap",
+    "--help"
+  ]
+}

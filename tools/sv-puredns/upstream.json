@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/d3mondev/puredns/v2",
+  "package": "github.com/d3mondev/puredns/v2",
+  "version": "v2.1.1",
+  "executable": "puredns"
+}

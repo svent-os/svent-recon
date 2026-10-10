@@ -11,3 +11,9 @@ tools/*/bin/
 *.asc
 *secret*
 svent-signing-key.asc
+
+tools/*/.build.*/
+tools/*/.src/
+tools/*/.cargo-root/
+/build/
+/dist/

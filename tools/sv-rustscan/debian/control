@@ -2,13 +2,12 @@ Source: sv-rustscan
 Section: net
 Priority: optional
 Maintainer: z1rov <fabian@zirov.net>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13), cargo (>= 1.85), rustc (>= 1.85), gcc, libc6-dev, pkg-config, libssl-dev, ca-certificates
 Standards-Version: 4.7.0
 Rules-Requires-Root: no
 
 Package: sv-rustscan
 Architecture: amd64
-Depends: svent-core, ${shlibs:Depends}, ${misc:Depends}
-Recommends: nmap
+Depends: svent-core, nmap, ${shlibs:Depends}, ${misc:Depends}
 Description: Svent recon tool: rustscan
  Fast modern port scanner, built from upstream (Rust).

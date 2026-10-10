@@ -1,5 +1,7 @@
 #!/bin/sh
 set -eu
-here=$(cd "$(dirname "$0")" && pwd)
-rm -rf "$here/bin"; mkdir -p "$here/bin"
-GOBIN="$here/bin" go install -ldflags "-s -w" github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+here=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+mkdir -p "$here/bin"
+export GOBIN="$here/bin"
+export GOTOOLCHAIN=auto
+go install -p "${SVENT_BUILD_JOBS:-2}" -trimpath -ldflags "-s -w" github.com/projectdiscovery/naabu/v2/cmd/naabu@v2.6.1

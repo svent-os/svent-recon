@@ -1,2 +1,3 @@
 bin/assetfinder usr/bin/
 catalog.d/assetfinder.json usr/share/svent/catalog.d/
+launchers/sv-assetfinder usr/bin/

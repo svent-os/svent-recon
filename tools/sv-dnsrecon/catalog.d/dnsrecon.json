@@ -1,1 +1,17 @@
-{"schema":1,"name":"dnsrecon","group":"recon","description":"DNS enumeration and reconnaissance tool","packaging":"debian","package":"dnsrecon","executables":["dnsrecon"],"official_source":"https://github.com/darkoperator/dnsrecon","version_policy":"follow-debian-testing","functional_test":["dnsrecon","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "dnsrecon",
+  "group": "recon",
+  "description": "DNS enumeration and reconnaissance tool",
+  "packaging": "debian",
+  "package": "dnsrecon",
+  "executables": [
+    "sv-dnsrecon"
+  ],
+  "official_source": "https://github.com/darkoperator/dnsrecon",
+  "version_policy": "follow-debian-testing",
+  "functional_test": [
+    "sv-dnsrecon",
+    "--help"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/owasp-amass/amass/v4",
+  "package": "github.com/owasp-amass/amass/v4/cmd/amass",
+  "version": "v4.2.0",
+  "executable": "amass"
+}

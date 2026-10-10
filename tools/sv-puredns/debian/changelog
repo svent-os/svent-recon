@@ -1,3 +1,10 @@
+sv-puredns (0.1.1) unstable; urgency=medium
+
+  * Provide a global command launcher and validated batch packaging.
+  * Build the pinned upstream source during Debian packaging.
+
+ -- z1rov <fabian@zirov.net>  Sat, 10 Oct 2026 00:00:00 -0500
+
 sv-puredns (0.1.0) unstable; urgency=medium
 
   * Initial release, built from upstream.

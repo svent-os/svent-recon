@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/projectdiscovery/katana",
+  "package": "github.com/projectdiscovery/katana/cmd/katana",
+  "version": "v1.8.0",
+  "executable": "katana"
+}

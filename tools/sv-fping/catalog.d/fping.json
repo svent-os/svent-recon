@@ -1,1 +1,17 @@
-{"schema":1,"name":"fping","group":"recon","description":"Fast multi-host ping sweep","packaging":"debian","package":"fping","executables":["fping"],"official_source":"https://github.com/schweikert/fping","version_policy":"follow-debian-testing","functional_test":["fping","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "fping",
+  "group": "recon",
+  "description": "Fast multi-host ping sweep",
+  "packaging": "debian",
+  "package": "fping",
+  "executables": [
+    "sv-fping"
+  ],
+  "official_source": "https://github.com/schweikert/fping",
+  "version_policy": "follow-debian-testing",
+  "functional_test": [
+    "sv-fping",
+    "--help"
+  ]
+}

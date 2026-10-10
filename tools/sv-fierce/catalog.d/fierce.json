@@ -1,1 +1,17 @@
-{"schema":1,"name":"fierce","group":"recon","description":"DNS reconnaissance and enumeration tool","packaging":"debian","package":"fierce","executables":["fierce"],"official_source":"https://github.com/mschwager/fierce","version_policy":"follow-debian-testing","functional_test":["fierce","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "fierce",
+  "group": "recon",
+  "description": "DNS reconnaissance and enumeration tool",
+  "packaging": "debian",
+  "package": "fierce",
+  "executables": [
+    "sv-fierce"
+  ],
+  "official_source": "https://github.com/mschwager/fierce",
+  "version_policy": "follow-debian-testing",
+  "functional_test": [
+    "sv-fierce",
+    "--help"
+  ]
+}

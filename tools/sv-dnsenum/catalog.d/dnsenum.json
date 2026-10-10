@@ -1,1 +1,17 @@
-{"schema":1,"name":"dnsenum","group":"recon","description":"DNS enumeration and domain information gathering","packaging":"debian","package":"dnsenum","executables":["dnsenum"],"official_source":"https://github.com/SparrowOchon/dnsenum2","version_policy":"follow-debian-testing","functional_test":["dnsenum","--help"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "dnsenum",
+  "group": "recon",
+  "description": "DNS enumeration and domain information gathering",
+  "packaging": "debian",
+  "package": "dnsenum",
+  "executables": [
+    "sv-dnsenum"
+  ],
+  "official_source": "https://github.com/SparrowOchon/dnsenum2",
+  "version_policy": "follow-debian-testing",
+  "functional_test": [
+    "sv-dnsenum",
+    "--help"
+  ]
+}

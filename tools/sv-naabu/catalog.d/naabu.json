@@ -1,1 +1,17 @@
-{"schema":1,"name":"naabu","group":"recon","description":"Fast port scanner","packaging":"svent","package":"sv-naabu","executables":["naabu"],"official_source":"https://github.com/projectdiscovery/naabu","version_policy":"svent-packaged","functional_test":["naabu","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "naabu",
+  "group": "recon",
+  "description": "Fast port scanner",
+  "packaging": "svent",
+  "package": "sv-naabu",
+  "executables": [
+    "sv-naabu"
+  ],
+  "official_source": "https://github.com/projectdiscovery/naabu",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "sv-naabu",
+    "--help"
+  ]
+}

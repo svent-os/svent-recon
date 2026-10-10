@@ -1,1 +1,2 @@
 catalog.d/fping.json usr/share/svent/catalog.d/
+launchers/sv-fping usr/bin/

@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/projectdiscovery/uncover",
+  "package": "github.com/projectdiscovery/uncover/cmd/uncover",
+  "version": "v1.2.1",
+  "executable": "uncover"
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/projectdiscovery/asnmap",
+  "package": "github.com/projectdiscovery/asnmap/cmd/asnmap",
+  "version": "v1.1.1",
+  "executable": "asnmap"
+}

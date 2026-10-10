@@ -1,1 +1,2 @@
 catalog.d/zmap.json usr/share/svent/catalog.d/
+launchers/sv-zmap usr/bin/

@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/projectdiscovery/naabu/v2",
+  "package": "github.com/projectdiscovery/naabu/v2/cmd/naabu",
+  "version": "v2.6.1",
+  "executable": "naabu"
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/projectdiscovery/mapcidr",
+  "package": "github.com/projectdiscovery/mapcidr/cmd/mapcidr",
+  "version": "v1.1.97",
+  "executable": "mapcidr"
+}

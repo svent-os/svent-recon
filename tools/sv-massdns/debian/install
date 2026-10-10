@@ -1,2 +1,3 @@
 bin/massdns usr/bin/
 catalog.d/massdns.json usr/share/svent/catalog.d/
+launchers/sv-massdns usr/bin/

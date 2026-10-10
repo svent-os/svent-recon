@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/tomnomnom/assetfinder",
+  "package": "github.com/tomnomnom/assetfinder",
+  "version": "v0.1.1",
+  "executable": "assetfinder"
+}

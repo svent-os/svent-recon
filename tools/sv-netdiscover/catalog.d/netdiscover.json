@@ -1,1 +1,17 @@
-{"schema":1,"name":"netdiscover","group":"recon","description":"Active and passive ARP host discovery","packaging":"debian","package":"netdiscover","executables":["netdiscover"],"official_source":"https://github.com/netdiscover-scanner/netdiscover","version_policy":"follow-debian-testing","functional_test":["netdiscover","-h"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "netdiscover",
+  "group": "recon",
+  "description": "Active and passive ARP host discovery",
+  "packaging": "debian",
+  "package": "netdiscover",
+  "executables": [
+    "sv-netdiscover"
+  ],
+  "official_source": "https://github.com/netdiscover-scanner/netdiscover",
+  "version_policy": "follow-debian-testing",
+  "functional_test": [
+    "sv-netdiscover",
+    "--help"
+  ]
+}

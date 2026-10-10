@@ -1,1 +1,17 @@
-{"schema":1,"name":"shuffledns","group":"recon","description":"Massdns wrapper for subdomain resolution","packaging":"svent","package":"sv-shuffledns","executables":["shuffledns"],"official_source":"https://github.com/projectdiscovery/shuffledns","version_policy":"svent-packaged","functional_test":["shuffledns","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "shuffledns",
+  "group": "recon",
+  "description": "Massdns wrapper for subdomain resolution",
+  "packaging": "svent",
+  "package": "sv-shuffledns",
+  "executables": [
+    "sv-shuffledns"
+  ],
+  "official_source": "https://github.com/projectdiscovery/shuffledns",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "sv-shuffledns",
+    "--help"
+  ]
+}

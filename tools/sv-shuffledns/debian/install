@@ -1,2 +1,3 @@
 bin/shuffledns usr/bin/
 catalog.d/shuffledns.json usr/share/svent/catalog.d/
+launchers/sv-shuffledns usr/bin/

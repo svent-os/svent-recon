@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/projectdiscovery/shuffledns",
+  "package": "github.com/projectdiscovery/shuffledns/cmd/shuffledns",
+  "version": "v1.2.1",
+  "executable": "shuffledns"
+}

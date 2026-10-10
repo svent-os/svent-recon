@@ -1,0 +1,7 @@
+{
+  "kind": "go",
+  "module": "github.com/projectdiscovery/dnsx",
+  "package": "github.com/projectdiscovery/dnsx/cmd/dnsx",
+  "version": "v1.3.1",
+  "executable": "dnsx"
+}
